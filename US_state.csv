@@ -1,0 +1,61 @@
+StateID,State,Abreviation,Date of statehood,Capital,Capital since,Land area In Sq Miles,Most populous city,Municipal population,Metropolitan population
+1,Alabama,AL,1819,Montgomery,1846,155.4,No,205764,374536
+2,Alaska,AK,1959,Juneau,1906,2716.7,No,31275,
+3,Arizona,AZ,1912,Phoenix,1889,474.9,Yes,1445632,4192887
+4,Arkansas,AR,1836,Little Rock,1821,116.2,Yes,193524,877091
+5,California,CA,1850,Sacramento,1854,97.2,No,466488,2527123
+6,Colorado,CO,1876,Denver,1867,153.4,Yes,600158,2552195
+7,Connecticut,CT,1788,Hartford,1875,17.3,No,124512,1212381
+8,Delaware,DE,1787,Dover,1777,22.4,No,36047,162310
+9,Florida,FL,1845,Tallahassee,1824,95.7,No,181412,367413
+10,Georgia,GA,1788,Atlanta,1868,131.7,Yes,420003,5268860
+11,Hawaii,HI,1959,Honolulu,1845,85.7,Yes,337256,953207
+12,Idaho,ID,1890,Boise,1865,63.8,Yes,205671,616561
+13,Illinois,IL,1818,Springfield,1837,54,No,116250,208182
+14,Indiana,IN,1816,Indianapolis,1825,361.5,Yes,829718,1756221
+15,Iowa,IA,1846,Des Moines,1857,75.8,Yes,203433,580255
+16,Kansas,KS,1861,Topeka,1856,56,No,127473,230824
+17,Kentucky,KY,1792,Frankfort,1792,14.7,No,25527,70758
+18,Louisiana,LA,1812,Baton Rouge,1880,76.8,No,229553,802484
+19,Maine,ME,1820,Augusta,1832,55.4,No,19136,117114
+20,Maryland,MD,1788,Annapolis,1694,6.73,No,38394,
+21,Massachusetts,MA,1788,Boston,1630,48.4,Yes,617594,4522858
+22,Michigan,MI,1837,Lansing,1847,35,No,114297,464036
+23,Minnesota,MN,1858,Saint Paul,1849,52.8,No,285068,3502891
+24,Mississippi,MS,1817,Jackson,1821,104.9,Yes,173514,539057
+25,Missouri,MO,1821,Jefferson City,1826,27.3,No,43079,149807
+26,Montana,MT,1889,Helena,1875,14,No,28190,74801
+27,Nebraska,NE,1867,Lincoln,1867,74.6,No,258379,302157
+28,Nevada,NV,1864,Carson City,1861,143.4,No,55274,
+29,New Hampshire,NH,1788,Concord,1808,64.3,No,42695,
+30,New Jersey,NJ,1787,Trenton,1784,7.66,No,84913,366513
+31,New Mexico,NM,1912,Santa Fe,1610,37.3,No,75764,183732
+32,New York,NY,1788,Albany,1797,21.4,No,97856,857592
+33,North Carolina,NC,1789,Raleigh,1792,114.6,No,403892,1130490
+34,North Dakota,ND,1889,Bismarck,1883,26.9,No,61272,108779
+35,Ohio,OH,1803,Columbus,1816,210.3,Yes,787033,1836536
+36,Oklahoma,OK,1907,Oklahoma City,1910,607,Yes,580000,1252987
+37,Oregon,OR,1859,Salem,1855,45.7,No,154637,390738
+38,Pennsylvania,PA,1787,Harrisburg,1812,8.11,No,49528,647390
+39,Rhode Island,RI,1790,Providence,1900,18.5,Yes,178042,1630956
+40,South Carolina,SC,1788,Columbia,1786,125.2,Yes,131686,913797
+41,South Dakota,SD,1889,Pierre,1889,13,No,13646,
+42,Tennessee,TN,1796,Nashville,1826,473.3,No,635710,1582264
+43,Texas,TX,1845,Austin,1839,251.5,No,842592,1716291
+44,Utah,UT,1896,Salt Lake City,1858,109.1,Yes,186440,1124197
+45,Vermont,VT,1791,Montpelier,1805,10.2,No,7855,
+46,Virginia,VA,1788,Richmond,1780,60.1,No,204214,1231675
+47,Washington,WA,1889,Olympia,1853,16.7,No,46478,234670
+48,West Virginia,WV,1863,Charleston,1885,31.6,Yes,51400,304214
+49,Wisconsin,WI,1848,Madison,1838,68.7,No,233209,561505
+50,Wyoming,WY,1890,Cheyenne,1869,21.1,Yes,59466,91738
+51,American Samoa,AS,1899,Pago Pago,1899,76.8,No,46366,
+53,District of Columbia,DC,1790,Washington,1790,68.34,Yes,702455,6385162
+54,Northern Mariana Islands,NI,1976,Saipan,1962,179.2,No,57998,
+55,Puerto Rico,PR,1967,San Juan,1519,3515,Yes,395326,
+56,Virgin Islands,VI,1917,Charlotte Amalie,1666,133.7,No,102951,
+57,Guam,GU,1983,Hagatna,1898,212,Yes,159358,
+58,Republic of Palau,RP,1981,Ngerulmud,2006,177.2,No,17907,
+59,Federated States of Micronesia,FS,1979,Palikir,1989,271,No,102843,
+60,Marshall Islands,MS,1979,Majuro,1884,70,No,25400,
+61,New York State,NY,1788,Albany,1797,21.4,No,97856,857592
