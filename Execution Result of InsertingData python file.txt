@@ -1,0 +1,13 @@
+Sucessful connection to Database!
+Now Inserting Data for State Table
+Data Insert Complete for State Table!
+Now Inserting Data for County Table
+Data Insert Complete for County Table!
+Now Inserting Data for Death Table
+Data Insert Complete for Death Table!
+Now Inserting Data for Confirmed_Cases Table
+Data Insert Complete for Confirmed_Cases Table!
+Now Inserting Data for Vaccinations Table
+Data Insert Complete for Vaccinations Table!
+Closing Connection
+Connection is closed

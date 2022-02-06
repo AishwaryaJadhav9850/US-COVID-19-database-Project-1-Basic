@@ -1,0 +1,34 @@
+Insert into COUNTY(Population,Latitude,Longitude) values (55555,38.07161,-117.2415516)
+*
+ERROR at line 1:
+ORA-01400: cannot insert NULL into ("SYSTEM"."COUNTY"."STATE") 
+
+Query 1: Violates the Entity Integrity Constraint  when trying to insert NULL in Primary key
+
+
+
+Insert into COUNTY values ('Puerto Rico','Aguada',55555,38.07161,-117.2415516)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (SYSTEM.SYS_C008320) violated 
+
+Query 2: Violates the Key contraint when trying to insert duplicate primary key
+
+
+
+Insert into COUNTY values ('Maharashtra','Pune',55555,38.07161,-117.2415516)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (SYSTEM.SYS_C008321) violated - parent key not 
+found
+ 
+Query 3: Violates the Referentials Integrity Constraint when trying to insert Foreign key value that is not present in Primary table 
+
+
+
+Insert into COUNTY values ('Puerto Rico','Pune','abcd',38.07161,-117.2415516)
+                                                *
+ERROR at line 1:
+ORA-01722: invalid number 
+
+Query 4: Violates the Domain constraints when trying to insert string inplace of Integer.

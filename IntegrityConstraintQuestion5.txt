@@ -1,0 +1,8 @@
+Delete from state where state='Texas'
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (SYSTEM.SYS_C008336) violated - child record 
+found 
+
+Query: Violates the Referencial Integrity Constraint when Trying to delete data (Primary Key) from parent table which is Referenced from Child Table (Foreign Key).
+
