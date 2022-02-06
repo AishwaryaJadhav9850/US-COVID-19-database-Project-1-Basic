@@ -3,7 +3,7 @@ import pandas as pd
 connection=None
 try:
     #Establish Connection to the Database
-    connection = co.connect(user="SYSTEM",password ="Tiger",dsn ='10.219.168.219:1521/XE')
+    connection = co.connect(user="SYSTEM",password ="Tiger",dsn ='<PUT YOUR DSN HERE>')
     print("Sucessful connection to Database!")
     cursor = connection.cursor()
 
