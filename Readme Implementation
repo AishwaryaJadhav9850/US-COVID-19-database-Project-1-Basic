@@ -1,0 +1,76 @@
+NOTE: 
+•	 Missing union territories in the state table are added which were causing issue during inserting of data in child table.
+1.	American Samoa
+2.	District of Columbia
+3.	Northern Mariana Islands
+4.	Puerto Rico
+5.	Virgin Islands
+6.	Guam
+7.	Republic of Palau
+8.	Federated States of Micronesia
+9.	Marshall Islands
+10.	New York State
+
+•	Union territories don’t have county, so county column for Union territories in all the tables is written as “No County”
+•	Removed the commas from the digits in State csv file
+•	Datatype is extended to NUMBER(20,10) for LANDAREA column in STATE table and LONGITUDE column in COUNTY table 
+•	Removed duplicate values like “unassigned”, “nan”, “out of <state>” from the COUNTY table as county column is the primary key.
+•	The primary keys are updated to suit the data.
+• All 0 and negative values from confirmed_Cases and Deaths table are ignored while inserting data into tables in SQLPLUS.
+
+
+STEPS:
+1.	Download and Install Oracle Database 21c Express Edition on your local Machine
+
+2.	Install Python Version 3.9 and check the path for Python executable file path [Path for me is : c:\users\aishw\appdata\local\programs\python\python39\python.exe].
+
+3.	Open cmd (command prompt) on Windows 10 system
+
+4.	Install and Upgrade pip
+c:\users\aishw\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip
+
+5.	Install cx_Oracle package
+pip install cx_Oracle –upgrade
+OR
+c:\users\aishw\appdata\local\programs\python\python39\python.exe -m pip install cx_Oracle
+
+6.	Install Pandas Package
+pip install pandas
+OR
+c:\users\aishw\appdata\local\programs\python\python39\python.exe -m pip install pandas
+
+7.	Copy all the .sql files and  .csv files together with InsertingData.py on the current working Directory of the command prompt:
+Eg:
+ 
+Files to be copied in the current working directory:
+•	TableCreationCommands.sql
+•	IntegrityConstraint.sql
+•	Insert_Integrity_Constraints.sql
+•	Delete_Integrity_Constraints.sql
+•	Question_3_Queries.sql
+•	InsertingData.py
+•	Us_confirmed_cases.csv
+•	Us_County.csv
+•	Us_deaths.csv
+•	US_state.csv
+•	US_Vaccination.csv
+
+8.	Question 1: Execute the below command on command prompt to create tables.
+echo @TableCreationCommands.sql | sqlplus SYSTEM/Tiger
+
+9.	Question 2: Execute the below command to insert data into created tables
+c:\users\aishw\appdata\local\programs\python\python39\python.exe InsertingData.py
+
+10.	Question 3: Execute the below command on command prompt for select queries. Some query were very ambiguous. Some queries didn’t have the required tables to perform the queue. The queries are updated. New formed query based on the table data are mentioned in the .sql file.
+Command:
+echo @Question_3_Queries.sql | sqlplus SYSTEM/Tiger
+
+11.	Question 4: Execute the below command on command prompt for violate the integrity constraints using Insert Operation
+echo @Insert_Integrity_Constraints.sql | sqlplus SYSTEM/Tiger
+
+12.	Question 5: Execute the below command on command prompt for violation of referential integrity constraint using Delete Operation
+echo @Delete_Integrity_Constraints.sql | sqlplus SYSTEM/Tiger
+
+13.	Question 6: Execute the below command on command prompt. Insert new records that do not violate any integrity constraints
+echo @IntegrityConstraint.sql | sqlplus SYSTEM/Tiger
+
